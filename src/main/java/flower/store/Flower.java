@@ -14,6 +14,9 @@ public class Flower {
     private double price;
     @Getter
     private FlowerType flowerType;
+    @Setter
+    @Getter
+    int id;
     public Flower(double len, FlowerColor col, double pr, FlowerType type){
         sepalLength = len;
         color = col;
